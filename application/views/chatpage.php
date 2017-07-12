@@ -69,7 +69,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="<?php echo base_url();?>asset/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="<?php echo base_url();?>asset/js/moment.min.js"></script>
-	<script src="http://localhost:3000/socket.io/socket.io.js"></script>
+	<script src="https://armchat.herokuapp.com:3000/socket.io/socket.io.js"></script>
 	<script>
 	var user_id='<?php echo $user_id?>';
 	var room_id=1;
@@ -81,7 +81,7 @@
 	}
 	else
 	{
-		var socket = io.connect('http://localhost:3000');
+		var socket = io.connect('https://armchat.herokuapp.com:3000');
 		var chatpage=socket.of('/chatpage')
 			.on('connect_failed', function (reason) {
 			$('.spinner-feeds').hide();
