@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'https://armchat.herokuapp.com//';
+$config['base_url']	= 'https://armchat.herokuapp.com/';
 
 /*
 |--------------------------------------------------------------------------
