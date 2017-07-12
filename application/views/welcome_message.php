@@ -35,7 +35,7 @@
 		<div class="form-group">
         <input type="text" class="form-control" placeholder="Enter your name" required autofocus name="username" id="username">
 		</div>
-        <button class="btn btn-lg btn-primary btn-block" type="submit">Join Room</button>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Join Our APP</button>
       </form>
 
     </div> <!-- /container -->
