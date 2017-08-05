@@ -33,6 +33,7 @@ if (defined('ENVIRONMENT'))
 	switch (ENVIRONMENT)
 	{
 		case 'development':
+		echo "test";
 			error_reporting(E_ALL);
 		break;
 	
