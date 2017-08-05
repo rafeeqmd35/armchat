@@ -1,0 +1,16 @@
+RewriteEngine on
+RewriteBase /
+
+
+
+RewriteCond %{REQUEST_FILENAME} -s [OR]
+RewriteCond %{REQUEST_FILENAME} -l [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^.*$ - [NC,L]
+
+
+
+php_value memory_limit 300M
+php_value upload_max_filesize 300M
+php_value post_max_size 300M
+php_value max_input_vars 40000
